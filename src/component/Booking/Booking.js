@@ -45,7 +45,7 @@ const UserOrder = () => {
         };
 
         if (spiner) {
-            return <Spinner animation="border" className="mt-5 my-5 mx-auto text-center" variant="success"></Spinner>
+            return <div className="text-center"><Spinner animation="border" className="mt-5 my-5 mx-auto text-center" variant="success"></Spinner></div>
         }
 
 
