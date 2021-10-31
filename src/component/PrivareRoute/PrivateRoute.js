@@ -9,7 +9,8 @@ const PrivateRoute = ({ children, ...rest }) => {
 
 
     if (isLoading) {
-        return <Spinner animation="border" className="mt-5 my-5 mx-auto text-center" variant="danger"></Spinner>
+        return <div className="text-center"><Spinner animation="border" className="mt-5 my-5 mx-auto text-center" variant="success"></Spinner></div>
+
     }
 
     return (
