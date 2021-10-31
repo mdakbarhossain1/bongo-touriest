@@ -36,7 +36,7 @@ const TouristSpot = () => {
             <h1 className="text-center py-5 title">Our Tourist Spot</h1>
             <Container>
             {
-                spiner&&<Spinner className="mx-auto" animation="border" variant="primary"></Spinner>
+                spiner&&<div className="text-center"><Spinner className="mx-auto" animation="border" variant="primary"></Spinner></div>
             }
                 <Row className="g-1">
                     {
